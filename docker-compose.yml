@@ -10,8 +10,8 @@ services:
       POSTGRES_DB: db_procedure_type
 
 
-  app:
-    container_name: procedure_type
+  app-be:
+    container_name: procedure_type_be
     build:
       context: .
     depends_on:
